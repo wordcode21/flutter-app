@@ -86151,7 +86151,7 @@ s=1
 break
 case 1:return A.N(q,r)}})
 return A.O($async$c4,r)},
-qS(){var s=0,r=A.P(t.H),q=this,p,o,n,m,l,k,j,i,h
+qS(){var s=0,r=A.P(t.H),q=this,p,o,n,m,l,k,j,i
 var $async$qS=A.K(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:q.Z(new A.agR(q))
 s=2
@@ -86164,15 +86164,14 @@ break
 case 3:m=A.de("https://api.masadji.my.id/order")
 l=t.N
 k=A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+p],l,l)
-j=q.a
 s=5
-return A.J(A.Yy(m,B.ak.m5(A.ae(["kode_barang",j.c,"sebanyak",j.e,"alamat",o,"kota",n,"ongkir",q.w],l,t.z),null),k),$async$qS)
-case 5:i=b
-if(i.b===201){q.Z(new A.agS(q))
-h=J.aM(B.ak.dC(0,A.vU(A.vL(i.e).c.a.h(0,"charset")).dC(0,i.w)),"payment_url")
+return A.J(A.Yy(m,B.ak.m5(A.ae(["kode_barang",q.a.c,"sebanyak",q.e,"alamat",o,"kota",n,"ongkir",q.w],l,t.z),null),k),$async$qS)
+case 5:j=b
+if(j.b===201){q.Z(new A.agS(q))
+i=J.aM(B.ak.dC(0,A.vU(A.vL(j.e).c.a.h(0,"charset")).dC(0,j.w)),"payment_url")
 m=window
 m.toString
-B.za.UR(m,h,"_self")}else{q.Z(new A.agT(q))
+B.za.UR(m,i,"_self")}else{q.Z(new A.agT(q))
 throw A.c(A.cr("Failed to create transaction"))}case 4:return A.N(null,r)}})
 return A.O($async$qS,r)},
 o4(){var s=0,r=A.P(t.H),q=1,p,o=this,n,m,l,k,j,i,h,g,f,e,d,c
