@@ -85983,7 +85983,7 @@ case 2:i=b
 q=4
 k=t.N
 s=7
-return A.J(A.aqt(A.de("http://api.masadji.my.id/keranjang"),A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.h(i)],k,k)),$async$it)
+return A.J(A.aqt(A.de("https://api.masadji.my.id/keranjang"),A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.h(i)],k,k)),$async$it)
 case 7:n=b
 if(n.b===200){k=n
 m=B.ak.pA(0,A.vU(A.vL(k.e).c.a.h(0,"charset")).dC(0,k.w),null)
@@ -86011,7 +86011,7 @@ s=2
 return A.J(o.c4(),$async$ip)
 case 2:n=c
 q=4
-k=A.de("http://api.masadji.my.id/keranjang")
+k=A.de("https://api.masadji.my.id/keranjang")
 j=t.N
 i=A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.h(n)],j,j)
 s=7
@@ -86161,7 +86161,7 @@ o=q.d.a.a
 n=q.WH(q.r)
 s=p!=null?3:4
 break
-case 3:m=A.de("http://api.masadji.my.id/order")
+case 3:m=A.de("https://api.masadji.my.id/order")
 l=t.N
 k=A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+p],l,l)
 j=q.a
@@ -86184,7 +86184,7 @@ case 2:n=b
 s=n!=null?3:4
 break
 case 3:q=6
-g=A.de("http://api.masadji.my.id/cek-ongkir")
+g=A.de("https://api.masadji.my.id/cek-ongkir")
 f=t.N
 e=A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.h(n)],f,f)
 s=9
@@ -86218,7 +86218,7 @@ case 2:h=c
 s=a!=null?3:4
 break
 case 3:q=6
-l=A.de("http://api.masadji.my.id/keranjang")
+l=A.de("https://api.masadji.my.id/keranjang")
 k=t.N
 j=A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.h(h)],k,k)
 s=9
@@ -86336,7 +86336,7 @@ A.d5(B.n,new A.ahJ(o),t.P)
 s=4
 break
 case 5:q=7
-l=A.de("http://api.masadji.my.id/keranjang")
+l=A.de("https://api.masadji.my.id/keranjang")
 k=t.N
 j=A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.h(n)],k,k)
 s=10
@@ -86475,7 +86475,7 @@ return A.J(A.hj(),$async$tX)
 case 3:p=m.bS(l.aM(b.a,"token"))
 o=t.N
 s=4
-return A.J(A.aqt(A.de("http://api.masadji.my.id/products"),A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.h(p)],o,o)),$async$tX)
+return A.J(A.aqt(A.de("https://api.masadji.my.id/products"),A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.h(p)],o,o)),$async$tX)
 case 4:n=b
 if(n.b===200){o=J.qL(J.aM(B.ak.dC(0,A.vU(A.vL(n.e).c.a.h(0,"charset")).dC(0,n.w)),"data"),new A.ajz(),t.U_)
 q=A.a6(o,!0,A.o(o).i("ar.E"))
@@ -86557,7 +86557,7 @@ s=3
 break
 case 4:n=new A.a6l(e,d)
 q=6
-h=A.de("http://api.masadji.my.id/login")
+h=A.de("https://api.masadji.my.id/login")
 g=t.N
 g=A.ae(["Content-Type","application/json; charset=UTF-8"],g,g)
 s=9
@@ -86699,7 +86699,7 @@ case 2:i=b
 q=4
 k=t.N
 s=7
-return A.J(A.aqt(A.de("http://api.masadji.my.id/order"),A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.h(i)],k,k)),$async$it)
+return A.J(A.aqt(A.de("https://api.masadji.my.id/order"),A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.h(i)],k,k)),$async$it)
 case 7:n=b
 if(n.b===200){k=n
 m=B.ak.pA(0,A.vU(A.vL(k.e).c.a.h(0,"charset")).dC(0,k.w),null)
@@ -86803,7 +86803,7 @@ break
 case 3:q=6
 i=t.N
 s=9
-return A.J(A.aqt(A.de("http://api.masadji.my.id/profile"),A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.h(n)],i,i)),$async$o5)
+return A.J(A.aqt(A.de("https://api.masadji.my.id/profile"),A.ae(["Content-Type","application/json; charset=UTF-8","Authorization","Bearer "+A.h(n)],i,i)),$async$o5)
 case 9:m=b
 o.Z(new A.alN(o))
 if(m.b===200){i=m
@@ -86840,7 +86840,7 @@ if(B.b.gL(o.split("."))!=null)n=B.b.gL(o.split("."))==="jpg"||B.b.gL(o.split("."
 else n=!1
 s=n?6:7
 break
-case 6:m=A.aJh("PATCH",A.de("http://api.masadji.my.id/profile"))
+case 6:m=A.aJh("PATCH",A.de("https://api.masadji.my.id/profile"))
 m.r.n(0,"Authorization","Bearer "+A.h(h))
 n=p.c
 n.toString
@@ -86945,7 +86945,7 @@ s=12
 break
 case 13:n=new A.a9m(e,f,g,i)
 q=15
-l=A.de("http://api.masadji.my.id/register")
+l=A.de("https://api.masadji.my.id/register")
 k=t.N
 k=A.ae(["Content-Type","application/json; charset=UTF-8"],k,k)
 s=18
